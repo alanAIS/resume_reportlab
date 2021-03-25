@@ -2,8 +2,6 @@
 from reportlab.lib.pagesizes import letter, A4
 PAGE_WIDTH, PAGE_HEIGHT = A4
 
-# print(A4)
-
 
 from reportlab.lib.units import inch, mm
 # PAGE_WIDTH, PAGE_HEIGHT = 140*mm, 215*mm
@@ -17,5 +15,4 @@ export_name_url = 'resume.pdf'
 # Title = "Santo K Thomas - Resume 2021"
 
 PAGE_FRAME_WIDTH = PAGE_WIDTH - (LEFT_MARGIN + RIGHT_MARGIN)
-# print(PAGE_FRAME_WIDTH)
 PAGE_FRAME_HEIGHT = PAGE_HEIGHT - (TOP_MARGIN + BOTTOM_MARGIN)
