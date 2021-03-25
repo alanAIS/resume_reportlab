@@ -1,9 +1,1 @@
-0000000000000000000000000000000000000000 2afa4c91fd7eef0d95d08af835933a3753df947c Santo Kalayil <santokalayil@gmail.com> 1615874833 +0530	commit (initial): resume reportlab
-2afa4c91fd7eef0d95d08af835933a3753df947c cf90306c4f21bc564c458101f82a9f4d43ac36e1 Santo Kalayil <santokalayil@gmail.com> 1615875166 +0530	commit: first commit
-cf90306c4f21bc564c458101f82a9f4d43ac36e1 0000000000000000000000000000000000000000 Santo Kalayil <santokalayil@gmail.com> 1615875177 +0530	Branch: renamed refs/heads/main to refs/heads/main
-cf90306c4f21bc564c458101f82a9f4d43ac36e1 cf90306c4f21bc564c458101f82a9f4d43ac36e1 Santo Kalayil <santokalayil@gmail.com> 1615875177 +0530	Branch: renamed refs/heads/main to refs/heads/main
-cf90306c4f21bc564c458101f82a9f4d43ac36e1 fbd1405588689c443e98f6c364fcb56c537fd39b Santo Kalayil <santokalayil@gmail.com> 1615875976 +0530	commit: try push
-fbd1405588689c443e98f6c364fcb56c537fd39b 592001633f81f7f94ba1b6551149f0908423a1ba Santo Kalayil <santokalayil@gmail.com> 1615879459 +0530	commit: update
-592001633f81f7f94ba1b6551149f0908423a1ba 8b6cfe2ee02c16a5d0faa8a65f4e775f9aba5a4d Santo Kalayil <santokalayil@gmail.com> 1615904644 +0530	commit: update 2
-8b6cfe2ee02c16a5d0faa8a65f4e775f9aba5a4d 7915fee38818149f9ea7963c203ad2f1512e244d Santo Kalayil <santokalayil@gmail.com> 1616637011 +0530	commit: added new projects
-7915fee38818149f9ea7963c203ad2f1512e244d c299a83a688bf6276a32ff7aa738ffa3d83cbd8b Santo Kalayil <santokalayil@gmail.com> 1616637104 +0530	commit: added new projects and added achievements
+ref: refs/heads/main
