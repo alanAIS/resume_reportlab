@@ -120,6 +120,24 @@ Elements += ribbon(height=8, width=PAGE_FRAME_WIDTH, color=color_white) # after 
 
 # ============================================================================
 
+
+
+# ===========================  Rrojects =======================================
+proj = data['projects']
+head = proj['heading']
+projects_list = proj['projects']
+Elements += produce_heading(head)
+# Elements += ribbon(height=8, width=PAGE_FRAME_WIDTH, color=color_white) # before links
+
+from reportlab.platypus import ListFlowable, ListItem
+style = ParagraphStyle(name='Normal', fontName='oswald_light', fontSize=10,)
+project_items = [ListItem(Paragraph(project, style), value="circle") for project in projects_list]
+list_projects = ListFlowable(project_items, bulletType='bullet', start='disk')
+Elements.append(list_projects)
+Elements += ribbon(height=8, width=PAGE_FRAME_WIDTH, color=color_white) # after links
+
+# ============================================================================
+
 # ===========================  Skills =======================================
 skills = data['keyskills']
 head = skills['heading']
@@ -136,7 +154,7 @@ Elements += ribbon(height=8, width=PAGE_FRAME_WIDTH, color=color_white) # after 
 
 # ============================================================================
 
-# ===========================  Proffesial summary =======================================
+# ===========================  Profesional summary =======================================
 prof = data['professional_summary']
 head = prof['heading']
 experiences_list = prof['experiences']
@@ -148,22 +166,6 @@ style = ParagraphStyle(name='Normal', fontName='oswald_light', fontSize=10,)
 experience_items = [ListItem(Paragraph(experience, style), value="square") for experience in experiences_list]
 list_experiences = ListFlowable(experience_items, bulletType='bullet', start='square')
 Elements.append(list_experiences)
-Elements += ribbon(height=8, width=PAGE_FRAME_WIDTH, color=color_white) # after links
-
-# ============================================================================
-
-# ===========================  Rrojects =======================================
-proj = data['projects']
-head = proj['heading']
-projects_list = proj['projects']
-Elements += produce_heading(head)
-# Elements += ribbon(height=8, width=PAGE_FRAME_WIDTH, color=color_white) # before links
-
-from reportlab.platypus import ListFlowable, ListItem
-style = ParagraphStyle(name='Normal', fontName='oswald_light', fontSize=10,)
-project_items = [ListItem(Paragraph(project, style), value="circle") for project in projects_list]
-list_projects = ListFlowable(project_items, bulletType='bullet', start='disk')
-Elements.append(list_projects)
 Elements += ribbon(height=8, width=PAGE_FRAME_WIDTH, color=color_white) # after links
 
 # ============================================================================
