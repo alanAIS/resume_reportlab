@@ -39,15 +39,14 @@ data = {
     'projects': dict(
         heading="Selected Projects",
         projects=[
-            '''Capstone Project: Cancer (Biopsy) prediction with high accuracy though the dataset is based on patients' survey. Used most of the classification methods and attained highest accuracy using Logistic Regression by simplifying the complexity of the dataset.''',
-            '''Heart Desease Prediction Project: Classification problem which predicted the heart decease patients with 99% Sensitivity and 97% Accuracy.''',
-            '''Data Analytics Project on Price Analysis and Linear Regression on Melbourne Housing Dataset.''',
-            '''Employee Attrition & Performance Analytics based on IBM Employee Dataset - 60% more faster detection of factors that determine and influence employee performance and attrition so that the HR department can introduce new cost effective strategies to improve productivity and performance.''',
-            '''Customer Analytics Project: Exploratory Data Analysis, Predicting Customer Satisfaction based on a Brazilian Public E-commerce Data.''',
+            '''Capstone Project: Cancer (Biopsy) prediction with 95.7 testing accuracy on patient survey data. Tested multiple Classification methods and selected ML models were based on Logistic Regression Gradient Boost Classifier.''',
+            '''Heart Disease Prediction Project: Predicted patients with heart disorders with 97% accuracy and 99% sensitivity using a Classification model''',
+            '''Employee Attrition & Performance Analytics: Achieved 60% faster detection of attributes that determine and influence employee performance and attrition so that the HR department can introduce new cost-effective strategies to improve productivity and performance''',
+            '''Customer Analytics Project: Forecasted customer satisfaction based on exploratory data analysis done on Brazilian Public E-commerce Data.''',
             # https://www.kaggle.com/andresionek/predicting-customer-satisfaction
-            '''Bank Personal Loan Modelling Data Science Project - Designed an optimal and efficient model that could help the bank identify the potential customers who have a higher probability of purchasing the loan which will increase the success ratio while at the same time reduce the cost of the campaign. The built ML Models attained upto 96% Specificity.''',
-            '''Automated Directory Project: Freelance project undertaken for St. Mary's Community, Hennur - which automated most of the steps like data collection, database storage, data retrieval and analytics, rearranging data for various sections of the book, data correction, Image resizing, full PDF generation etc. Technologies and Tools used are Google Forms, Google Sheet API, Python (Pandas, Numpy, Flask, Matplotlib, Reportlab, Pillow, OpenCV, Sqlite etc.''',
-            '''Current Personal Project: Developing a multipurpose NGO software for data collection, retrieval, analytics, automated certificate, report and letter generation. Support for desktop, mobile and web platforms. Techologies used are Python(Kivy, Tkinter, Flask, PyMongo, Reportlab, etc.), Rust(FLTK).''',
+            '''Bank Personal Loan Modelling Data Science Project - Designed an optimal and efficient model that could help a large bank identify potential customers who have a higher probability of purchasing loans which will increase the success ratio while at the same time reduce the cost of campaigns. Built ML models with Specificity up to 96%.''',
+            '''Automated Directory Project: Developed a directory of community members by automating processes such as data collection, database storage, data retrieval and analytics, rearranging data for various sections of the book, data correction, Image resizing, full PDF generation etc. Technologies and Tools used are Google Forms, Google Sheet API, Python (Pandas, Numpy, Flask, Matplotlib, Reportlab, Pillow, OpenCV, Sqlite etc).''',
+            '''Current Personal Project: Developing a multipurpose NGO software for data collection, retrieval, analytics, automated certificate, report and letter generation. Support for desktop, mobile, and web platforms. Technologies used are Python (Kivy, Tkinter, Flask, PyMongo, Reportlab, etc.), Rust(FLTK).''',
         ]
     ),
     'education': dict(
