@@ -17,7 +17,8 @@ from reportlab.platypus import Spacer
 from reportlab.platypus import TableStyle
 from reportlab.lib import colors
 
-from .text import data
+# from .text import data
+from .text_statistics import data  # for nithing told statistical institute
 
 color_light = colors.Color(0.7, 0.8, 0.9)
 color_general = colors.Color(0.2, 0.3, 0.4)
