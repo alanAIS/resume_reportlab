@@ -30,4 +30,6 @@ Elements.append(PageBreak())  # skipping the other side of first title page
 # start the construction of the pdf
 doc.build(Elements)
 
+import os
+os.startfile(export_name_url)
 
